@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">  
+<title>Insert title here</title>
+</head>
+<style>
+#chat {
+color : #050099;
+font-size : 15px;
+border: solid 1px blue;
+}
+
+#ti {
+color : #660058;
+font-size : 30px;
+height: 40px;
+text-align : center;
+margin-bottom : 15px;
+background-color : #FAF4C0;
+}
+
+#box {
+color : #4374D9;
+font-size : 25px;
+text-align : center;
+padding : 0 0 8px;
+background-color : #D9E5FF;
+margin-bottom : 15px;
+}
+
+</style>
+<body>
+<div id = "ti">
+<h3><b><i>메 모 장</i></b></h3>
+</div>
+<form method="post" action="memo_write.jsp">
+<div id = "box">
+<input type="text" name = "memo"></input>
+<input type = "submit" value ="등록"></input>
+</div>
+
+<div id = "chat">
+<p>
+<b>(4/7 15:13)</b> 오늘은 금요일이다!!!!!! 우하하^^ <input type = "button" value ="X"></input>
+</p>
+<p>
+<b>(4/7 11:03)</b> 수업이 언제 끝나나....ㅜㅜ <input type = "button" value ="X"></input>
+</p>
+<p>
+<b>(4/22 2:48 )</b>과제 하기 너무 싫어 <input type = "button" value ="X"></input>
+</p>
+</div>
+</form>
+</body>
+</html>
